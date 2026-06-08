@@ -1,0 +1,16 @@
+schemaVersion: 1
+service:
+  id: wallet-service
+  name: Wallet Service
+  type: service
+  tier: critical
+  description: Customer wallet balances, top-ups, and stored value.
+lifecycle: production
+tags:
+- adaptive-labs
+- payments
+links:
+- name: Runbook
+  url: ./docs/runbook.md
+- name: Onboarding
+  url: ./docs/onboarding.md
